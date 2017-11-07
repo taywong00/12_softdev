@@ -12,13 +12,35 @@
   <body>
     <h1>Welcome to Foundation!</h1>
 
-    <div class="callout">
-      <h6> Foundation is a great way to jump start any project, providing starter templates that can be customized for any website or online platform. </h6>
+    <!--navbar-->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu">
+          <li class="menu-text">A NAVBAR!</li>
+          <li><a href="https://foundation.zurb.com/building-blocks/how-to.html#what-is">whats a building block?</a></li>
+          <li><a href="https://foundation.zurb.com/learn/tutorials.html">tutorials</a></li>
+          <li><a href="https://foundation.zurb.com/sites/docs/installation.html">installation directions</a></li>
+        </ul>
+      </div>
+
+      <!--search bar-->
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><input type="search" placeholder="Stuff you wanna look up..."></li>
+          <li><button type="button" class="button">Look it up!</button></li>
+        </ul>
+      </div>
     </div>
 
     <br>
     <br>
 
+    <!--boxed section-->
+    <div class="callout">
+      <h6> Foundation is a great way to jump start any project, providing starter templates that can be customized for any website or online platform. </h6>
+    </div>
+
+    <!--form-->
     <h5> If you wanted to do form stuff it would look like this: </h5>
     <form>
       <div class="grid-x grid-padding-x">
@@ -29,6 +51,7 @@
       </div>
     </form>
 
+    <!--grid section-->
     <div class="grid-x grid-padding-x">
       <div class="large-8 medium-8 cell">
         <h5> Foundation also uses a grid system to divide sections of the page: </h5>
@@ -47,6 +70,7 @@
           </div>
         </div>
 
+        <!--buttons-->
         <div class="large-4 medium-4 cell">
           <h5>Try one of these buttons:</h5>
           <p><a href="#" class="button">Simple Button</a><br/>
