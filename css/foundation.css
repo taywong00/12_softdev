@@ -36,7 +36,7 @@ html {
      * Remove the margin in all browsers (opinionated).
      */
 body {
-  margin: 0; }
+  margin: 50; }
 
 /**
      * Add the correct display in IE 9-.
@@ -2229,7 +2229,8 @@ h6, .h6 {
   font-style: normal;
   font-weight: normal;
   color: inherit;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  margin-left: 10}
   h1 small, .h1 small,
   h2 small, .h2 small,
   h3 small, .h3 small,
@@ -2237,7 +2238,8 @@ h6, .h6 {
   h5 small, .h5 small,
   h6 small, .h6 small {
     line-height: 0;
-    color: #cacaca; }
+    color: #cacaca;
+    margin-left: 10 }
 
 h1, .h1 {
   font-size: 1.5rem;
@@ -2273,7 +2275,8 @@ h6, .h6 {
   font-size: 1rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: 10}
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
@@ -2287,7 +2290,8 @@ h6, .h6 {
   h5, .h5 {
     font-size: 1.25rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 1rem;
+    margin-left: 10} }
 
 a {
   line-height: inherit;
